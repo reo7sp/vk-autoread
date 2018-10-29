@@ -30,8 +30,8 @@ deny_autoread_chats: List[str]    # список названий бесед, к
 ## Запуск
 
 ```sh
-pip3 install -r requirement.txt  # чтобы установить зависимости
+pip3 install -r requirements.txt  # чтобы установить зависимости
 
-python3 ./app.py
+python3 app.py
 ```
 
