@@ -25,7 +25,7 @@ deny_autoread_chats: List[str]    # список названий бесед, к
     ```
     https://oauth.vk.com/authorize?client_id=<НОМЕР ПРИЛОЖЕНИЯ>&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=offline,messages&response_type=token&v=5.85
     ```
-3. Перейти по ссылке, разрешить права, потом, скопировать из адресной строки access_token.
+3. Перейти по ссылке, разрешить права. Потом скопировать из адресной строки access_token.
 
 ## Запуск
 
