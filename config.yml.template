@@ -1,0 +1,9 @@
+vk_token: <VK_TOKEN>
+
+autoread_all_muted: yes
+
+always_autoread_chats:
+  - <CHAT_TITLE>
+
+deny_autoread_chats:
+  - <CHAT_TITLE>
