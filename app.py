@@ -85,4 +85,4 @@ if __name__ == '__main__':
                 _logger.info(f'Marking as read chat with title {title}')
                 vk.messages.markAsRead(peer_id=peed_id)
 
-        sleep(timedelta(seconds=5).total_seconds())
+        sleep(timedelta(seconds=3).total_seconds())
