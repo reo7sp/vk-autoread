@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
             peed_id = it['peer']['id']
             title = it['chat_settings']['title']
-            is_muted = it.get('push_settings', dict()).get('no_sound', False)
+            is_muted = 'disabled_until' in it.get('push_settings', dict())
 
             do_autoread = False
             if config['autoread_all_muted'] and is_muted:
